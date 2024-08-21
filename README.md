@@ -59,7 +59,7 @@ Now that you have successfully run the app, let's modify it.
 
 ## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+You've successfully run and modified the React Native App, in this case, BrainTiller! :partying_face:
 
 ### Now what?
 
