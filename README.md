@@ -1,3 +1,5 @@
+This is a personal project created by Tyler M! BrainTiller is designed to improve cognitive wellness, especially for those with Alzheimer's or Dementia. Included are official instructions on how to run this project.
+ 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
