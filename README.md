@@ -1,74 +1,102 @@
-# This is a personal project created by Tyler M! BrainTiller is designed to improve cognitive wellness, especially for those with Alzheimer's or Dementia. Included are official instructions on how to run this project.
- 
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# BrainTiller
+
+This is a personal project created by Tyler M! BrainTiller is a mobile application designed to improve cognitive wellness, especially for those with Alzheimer's or Dementia. Built using React Native, BrainTiller is intended to be easy to use for elderly or caretakers, engaging, and supportive of cognitive well-being. Included are official instructions on how to run this project.
+
+# Features
+
+🧠 Cognitive Tools: Basic Everyday Support Tools
+
+🖥️ User-Friendly Interface: Simple and Intuitive UI
+
+🎮 Engaging Activities: Fun and Interactive Activity to Stimulate Brain Function.
+
+📊 Progress Tracking: Track Progress and Safety Involving Cognitive wellness.
+
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Follow the instructions below to set up and run the BrainTiller app on your local machine.
 
-## Step 1: Start the Metro Server
+## Prerequisites
+Before starting, ensure that you have the following installed:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Node.js (LTS version)
 
-To start Metro, run the following command from the _root_ of your React Native project:
+React Native CLI: Install globally by running:
 
 ```bash
-# using npm
+# Using npm
+npm install -g react-native-cli
+```
+
+Android Studio or Xcode (for Android or iOS development, respectively)
+
+## Step 1: Install Dependencies
+Install the necessary project dependencies by running:
+
+``` bash
+# Using npm
+npm install
+
+# OR using Yarn
+yarn install
+```
+
+## Step 2: Start Metro Bundler
+Metro is the JavaScript bundler that ships with React Native. To start Metro, open a terminal in your project directory and run:
+
+``` bash
+# Using npm
 npm start
 
 # OR using Yarn
 yarn start
 ```
 
-## Step 2: Start your Application
+## Step 3: Run Your Application
+Now you can run the app on either Android or iOS.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+For Android:
 
-### For Android
+Ensure that your Android emulator is running or a device is connected. Then, run:
 
-```bash
-# using npm
+``` bash
+# Using npm
 npm run android
 
 # OR using Yarn
 yarn android
 ```
 
-### For iOS
+For iOS:
+If you're on macOS and have Xcode installed, run the app on an iOS simulator:
 
 ```bash
-# using npm
+# Using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Modifying the App
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+If you wish to make changes to the app:
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified the React Native App, in this case, BrainTiller! :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+Open the App.tsx file in your preferred text editor.
+Make your desired changes.
+For Android: Press R twice or select "Reload" from the Developer Menu (Ctrl + M on Windows/Linux, Cmd ⌘ + M on macOS).
+For iOS: Hit Cmd ⌘ + R in your iOS Simulator.
 
 # Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+If you encounter any issues during the setup or while running the app, here are a few common solutions:
+
+Dependencies not installed: Ensure that you have run npm install or yarn install before running the app.
+Emulator issues: Make sure that your Android Emulator or iOS Simulator is correctly set up and running.
+Metro bundler issues: If Metro doesn't start, try killing any existing processes and restarting it with npm start or yarn start.
+For more troubleshooting tips, check out the React Native Troubleshooting Guide. See the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
 
 # Learn More
 
@@ -79,3 +107,11 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+You've reached the end, thank you for following along! :tada:
+
+
