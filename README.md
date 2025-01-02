@@ -110,7 +110,7 @@ To learn more about React Native, take a look at the following resources:
 
 # License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE.txt file for details.
 
 You've reached the end, thank you for following along! :tada:
 
